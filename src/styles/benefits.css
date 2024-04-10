@@ -52,7 +52,7 @@
     padding: 6rem;
   }
   .benefit_content h2 {
-    text-align: inherit;
+    text-align: left;
   }
   .btn_more{
     align-self: flex-start;

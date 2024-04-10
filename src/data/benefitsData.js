@@ -1,6 +1,6 @@
-import transform from '../assets/images/mobile/image-transform.jpg';
+import transform from '../assets/images/mobile/image-transform.webp';
 import transformDesk from '../assets/images/desktop/image-transform.jpg';
-import standOut from '../assets/images/mobile/image-stand-out.jpg';
+import standOut from '../assets/images/mobile/image-stand-out.webp';
 import standOutDesk from '../assets/images/desktop/image-stand-out.jpg';
 
 const benefitArr = [
