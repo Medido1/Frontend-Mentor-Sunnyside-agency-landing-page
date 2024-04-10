@@ -1,0 +1,45 @@
+.testimonials {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  color: var(--Very_dark_grayish_blue);
+}
+
+.testimonials h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 1rem;
+  opacity: 70%;
+  margin-bottom: 2rem;
+}
+
+.testimonials li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.testimonials li:not(:last-of-type) {
+  margin-bottom: 4rem;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.testimonials>p {
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.user_name {
+  font-size: 18px;
+  font-weight: var(--fraunces_900);
+  margin-bottom: 1rem;
+}
+
+.user_job {
+  font-size: .875rem;
+  opacity: 70%;
+}
