@@ -15,10 +15,18 @@ export default function Footer() {
         <li><a href="#">Projects</a></li>
       </ul>
       <ul className="social_links">
-        <a href="#"><img src={facebook} alt="faceook link" className="icon social" /></a>
-        <a href="#"><img src={instagram} alt="instagram link" className="icon social" /></a>
-        <a href="#"><img src={twitter} alt="twitter link" className="icon social" /></a>
-        <a href="#"><img src={pinterset} alt="pineterest link" className="icon social" /></a>
+        <li>
+          <a href="#"><img src={facebook} alt="faceook link" className="icon social" /></a>
+        </li>
+        <li>
+          <a href="#"><img src={instagram} alt="instagram link" className="icon social" /></a>
+        </li>
+        <li>
+          <a href="#"><img src={twitter} alt="twitter link" className="icon social" /></a>
+        </li>
+        <li>
+          <a href="#"><img src={pinterset} alt="pineterest link" className="icon social" /></a>
+        </li>
       </ul>
     </footer>
   );

@@ -29,11 +29,13 @@
   color: var(--White);
 }
 
+.social_links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
 .social_links a:hover img {
   filter: brightness(0) invert(1); /* This will invert the colors of the SVG on hover */
 }
 
-.social_links {
-  display: flex;
-  gap: 2rem;
-}
