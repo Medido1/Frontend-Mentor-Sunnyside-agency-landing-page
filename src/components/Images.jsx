@@ -1,11 +1,11 @@
 import React from 'react';
-import milkBottles from '../assets/images/mobile/image-gallery-milkbottles.jpg';
+import milkBottles from '../assets/images/mobile/image-gallery-milkbottles.webp';
 import milkBottlesDesk from '../assets/images/desktop/image-gallery-milkbottles.jpg';
-import orange from '../assets/images/mobile/image-gallery-orange.jpg';
+import orange from '../assets/images/mobile/image-gallery-orange.webp';
 import orangeDesk from '../assets/images/desktop/image-gallery-orange.jpg';
-import cone from '../assets/images/mobile/image-gallery-cone.jpg';
+import cone from '../assets/images/mobile/image-gallery-cone.webp';
 import coneDesk from '../assets/images/desktop/image-gallery-cone.jpg';
-import sugarCubes from '../assets/images/mobile/image-gallery-sugar-cubes.jpg';
+import sugarCubes from '../assets/images/mobile/image-gallery-sugar-cubes.webp';
 import sugarCubesDesk from '../assets/images/desktop/image-gallery-sugarcubes.jpg';
 import '../styles/images.css';
 
