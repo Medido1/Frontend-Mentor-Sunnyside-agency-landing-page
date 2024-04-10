@@ -43,3 +43,17 @@
   font-size: .875rem;
   opacity: 70%;
 }
+
+@media (min-width : 768px) {
+  .testimonials {
+    padding-top: 5rem;
+  }
+  .testimonials_list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .testimonials_list li {
+    max-width: 25%;
+  }
+}
