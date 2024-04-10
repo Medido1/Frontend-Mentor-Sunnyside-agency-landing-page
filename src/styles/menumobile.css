@@ -1,0 +1,39 @@
+.menu_mobile {
+  font-family: var(--fraunces_font);
+  position: absolute;
+  top: 15%;
+  background-color: var(--White);
+  padding: 2rem 1rem; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  width: 90vw;
+  z-index: 1;
+}
+
+.menu_mobile::after {
+  content: "";
+  position: absolute;
+  background-color: var(--White);
+  width: 20px;
+  height: 30px;
+  right: 0;
+  top: -7%;
+  clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+}
+
+.menu_mobile a {
+  text-decoration: none;
+  color: var(--Very_dark_grayish_blue);
+  font-size: 1.25rem;
+}
+
+.menu_mobile a:last-child {
+  background-color: yellow;
+  padding: 1rem;
+  border-radius: 100vmax;
+  color: var(--Very_dark_desaturated_blue);
+  font-weight: 900;
+  text-transform: uppercase;
+}
