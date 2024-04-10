@@ -1,0 +1,35 @@
+.service {
+  font-family: var(--fraunces_font);
+  font-weight: 700;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.service:first-child {
+  color: var(--Dark_desaturated_cyan);
+}
+
+.service:last-child {
+  color: var(--Dark_blue);
+}
+
+.btn_more.btn {
+  display: block;
+  text-transform: uppercase;
+  font-size: inherit;
+  letter-spacing: 2px;
+  font-weight: var(--fraunces_900);
+  width: 50%;
+  border-radius: .5rem;
+}
+
+.service h2 {
+  font-weight: var(--fraunces_700);
+  font-size: 1.75rem;
+}
