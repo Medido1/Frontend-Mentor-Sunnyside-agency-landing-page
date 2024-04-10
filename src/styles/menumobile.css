@@ -37,3 +37,27 @@
   font-weight: 900;
   text-transform: uppercase;
 }
+
+@media (min-width : 768px) {
+  .menu_mobile {
+    position: relative;
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .menu_mobile a {
+    color: var(--White);
+    font-size: 1rem;
+  }
+  .menu_mobile a:last-child {
+    background-color: var(--White);
+    color: black;
+  }
+  .menu_mobile a:last-child:hover {
+    background-color: transparent;
+    color: var(--White);
+  }
+  .menu_mobile::after {
+    width: 0;
+  }
+}

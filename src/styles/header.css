@@ -43,3 +43,15 @@
   outline: none;
   cursor: pointer;
 }
+
+@media (min-width: 768px) {
+  .header {
+    background-image: url(../assets/images/desktop/image-header.jpg); 
+  }
+  .header_top {
+    align-items: center;
+  }
+  .btn {
+    display: none;
+  }
+}
