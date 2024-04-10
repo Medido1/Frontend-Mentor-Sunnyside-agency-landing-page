@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import benefitArr from '../data/benefitsData';
 import '../styles/benefits.css';
 
@@ -15,7 +15,8 @@ export default function Benefits() {
           <div className="benefit_content">
             <h2>{benefit.title}</h2>
             <p>{benefit.description}</p>
-            <button className="btn_more"
+            <button
+              className="btn_more"
               style={{ borderBottom: benefit.color }}
             >
               Learn more
