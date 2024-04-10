@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Sunnyside-agency-landing-page);
-- Live Site URL: [live site](https://main--golden-puppy-e455cd.netlify.app/);
+- Solution URL: [solution](https://github.com/Medido1/Frontend-Mentor-Sunnyside-agency-landing-page)
+- Live Site URL: [live site](https://main--golden-puppy-e455cd.netlify.app/)
 
 ## My process
 
