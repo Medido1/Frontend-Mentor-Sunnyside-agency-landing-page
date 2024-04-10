@@ -1,6 +1,6 @@
-import graphicDesign from '../assets/images/mobile/image-graphic-design.jpg';
+import graphicDesign from '../assets/images/mobile/image-graphic-design.webp';
 import graphicDesignDesk from '../assets/images/desktop/image-graphic-design.jpg';
-import photoGraphy from '../assets/images/mobile/image-photography.jpg';
+import photoGraphy from '../assets/images/mobile/image-photography.webp';
 import photoGraphyDesk from '../assets/images/desktop/image-photography.jpg';
 
 const serviceList = [
