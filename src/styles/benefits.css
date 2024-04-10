@@ -15,8 +15,48 @@
   font-size: 2.25rem;
 }
 
-.benefit_content p,
-.service p {
+.benefit_content p {
   line-height: 1.5;
   opacity: 70%;
+}
+
+.btn_more {
+  display: inline-block;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-weight: var(--fraunces_900);
+  width: 50%;
+  border-radius: .5rem;
+}
+
+@media (min-width : 768px) {
+  .benefits li,
+  .benefits li:first-child {
+    display: flex;
+    
+  }
+  .benefits li:first-child {
+    flex-direction: row-reverse;
+  }
+  .benefit_img {
+    min-width: 49.5vw;
+  }
+  .benefit_content {
+    text-align: left;
+    justify-content: center;
+    padding: 6rem;
+  }
+  .benefit_content h2 {
+    text-align: inherit;
+  }
+  .btn_more{
+    align-self: flex-start;
+    width: fit-content;
+    padding: .5rem;
+  }
 }

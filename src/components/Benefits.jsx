@@ -15,7 +15,7 @@ export default function Benefits() {
           <div className="benefit_content">
             <h2>{benefit.title}</h2>
             <p>{benefit.description}</p>
-            <button className="btn btn_more"
+            <button className="btn_more"
               style={{ borderBottom: benefit.color }}
             >
               Learn more
