@@ -33,3 +33,16 @@
   font-weight: var(--fraunces_700);
   font-size: 1.75rem;
 }
+
+@media (min-width : 768px) {
+  .services_container {
+    display: flex;
+  }
+  .service {
+    min-width: 49.5vw;
+    align-items: center;
+  }
+  .service p {
+    max-width: 50%;
+  }
+}
